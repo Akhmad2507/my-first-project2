@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой первый сайт!</title>
+    <style>
+        body { 
+            background: #f0f0f0; 
+            text-align: center;
+            font-family: Arial;
+        }
+        h1 { 
+            color: blue; 
+            text-shadow: 2px 2px 3px gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет, фронтенд!</h1>
+    <p>Я учусь кодить на смартфоне 📱</p>
+    <p>Сегодня: <span id="date"></span></p>
+    
+    <script>
+        // Покажем текущую дату
+        document.getElementById('date').innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
