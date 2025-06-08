@@ -1,13 +1,17 @@
-/* Основные стили */
-body {
-    background: #f5f5f5;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
+/* Для мобильных */
+@media (max-width: 480px) {
+  body {
     padding: 20px;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 24px;
+  }
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+/* Для планшетов */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
 }
